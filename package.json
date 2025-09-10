@@ -1,0 +1,30 @@
+{
+  "name": "epsilonrealms-web-server-auth-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mizoding/epsilonrealms-web-server-auth-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mizoding/epsilonrealms-web-server-auth-service/issues"
+  },
+  "homepage": "https://github.com/Mizoding/epsilonrealms-web-server-auth-service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
